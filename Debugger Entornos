@@ -1,0 +1,9 @@
+# **Ejercicio debugger entornos de desarrollo.**  
+
+1. Estas dos lineas de código cogen el ultimo carácter de la string "string2" lo elimina, y lo cambia por un 1.  
+
+2. Antes de ser ejecutado, las dos strings valen "string1"  
+
+3. El operador == no funciona con strings, parra comparar strings es necesario poner el ".equals". Ya que con el == se compara la posición de memoria y no el contenido
+
+4. Para arreglar esa función es necesario declarar la funcion como estatica para poder llamarla desde cualquier punto
